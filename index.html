@@ -3,36 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Product preview card component</title>
-  <!-- Style  -->
-  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | QR code component</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
+  <!-- Style -->
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main id="product">
-    <picture>
-      <source srcset="./images/image-product-desktop.jpg" media="(min-width: 700px)">
-      <img src="./images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum">
-    </picture>
-    <div class="product-content">
-      <p class="category">PERFUME</p>
-      <h1>Gabrielle Essence Eau De Parfum</h1>
-      <p>  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-            Perfumer-Creator for the House of CHANEL.</p>
-      <div class="price">
-        <p class="discount-price">$149.99</p>
-        <p class="original-price"> <del>$169.99</del></p>
+  <main>
+    <div class="container">
+      <div class="imga">
+        <img src="./images/image-qr-code.png" alt="Qr-code">
       </div>
-      <button class="cart">Add to Cart</button>
+      <div class="qr-content">
+        <h2>Improve your front-end skills by building projects</h2>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div> 
     </div>
-  </main>
-  <footer id="footer">
+  </main>    
+    
+
+
+    <!-- Footer -->
+  <div class="footer">
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#"><strong>Yazeed Mohamed</strong></a>.
     </div>
-  </footer> 
+  </div>
 </body>
 </html>
